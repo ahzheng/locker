@@ -19,7 +19,7 @@ spring:
     port: 6379
 ```
     
-#### 使用方式示例，在方式上注释：
+#### 使用方式示例，在类的方法上注释：
 ```
 @GlobalLock(parallel = 3)
 public String get(String name) throws Exception {
